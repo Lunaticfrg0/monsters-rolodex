@@ -23,7 +23,7 @@ const App = () => {
     setFilteredMonsters(newFilteredMonstersArray)
   }, [monsters, searchField])
 
- const  onSearchChange = (e) => {
+ const onSearchChange = (e) => {
     const searchFieldString = e.target.value.toLocaleLowerCase()
     setSearchField(searchFieldString)
 
